@@ -1,4 +1,5 @@
 import heapq
+
 def union(conjuntos, set_ids, v1, v2):
     """Une os conjuntos que contêm v1 e v2."""
     set_id_v1, set_id_v2 = set_ids[v1], set_ids[v2]
